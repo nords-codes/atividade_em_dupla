@@ -12,7 +12,9 @@
 
     <label class="informacoes" for="Email">Email</label>
     <input type="email" id="Email" placeholder="Insira seu email">
-
     </form>
+
+    <button id="botao_login" type="submit">Cadastrar</button>
+
 </body>
 </html>
