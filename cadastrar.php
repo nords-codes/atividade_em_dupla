@@ -7,7 +7,8 @@
 <body>
     <form id="form_cadastro">
 
-    <Label ></Label>
+    <Label for="nome">Nome</Label>
+    <input type="text" id="nome" placeholder="insira seu nome">
 
     </form>
 </body>
