@@ -7,10 +7,10 @@
 <body>
     <form id="form_cadastro"><h2>Cadastrar Usuario</h2>
 
-    <Label for="nome">Nome</Label>
+    <Label class="informacoes" for="nome">Nome</Label>
     <input type="text" id="nome" placeholder="insira seu nome">
 
-    <label for="Email">Email</label>
+    <label class="informacoes" for="Email">Email</label>
     <input type="email" id="Email" placeholder="Insira seu email">
 
     </form>
