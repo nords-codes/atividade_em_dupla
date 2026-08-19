@@ -5,7 +5,7 @@
     <title>Cadastros</title>
 </head>
 <body>
-    <form id="form_cadastro"><h2>Cadastrar Usuario</h2>
+    <form id="form_cadastro" action="cadastrar_usuario" method="POST"><h2>Cadastrar Usuario</h2>
 
         <Label class="informacoes" for="nome">Nome</Label>
         <input type="text" id="nome" name="nome" placeholder="insira seu nome" required>
@@ -22,6 +22,6 @@
 </body>
 </html>
 <?php
-header("location: cadastar");
+header("location: cadastar_prato");
 exit();
 ?>
