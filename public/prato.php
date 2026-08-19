@@ -5,7 +5,7 @@
     <title>Document</title>
 </head>
 <body>
-    <form action="">
+    <form action="cadastrar_pratos.php" method="POST">
         <label class="informacoes">Nome do prato</label>
         <input type="text" id="nome_prato" placeholder ="insira o nome do prato..." required>
 

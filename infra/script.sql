@@ -13,4 +13,6 @@ CREATE TABLE pratos(
     preco decimal (10, 2) NOT NULL,
     categoria varchar(100) NOT NULL,
     descricao varchar(200),
+    id_usuario int,
+    foreign key (id_usuario) references usuario (id)
 );
